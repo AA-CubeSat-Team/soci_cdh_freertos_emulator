@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RTOSDemo", "WIN32.vcxproj", "{C686325E-3261-42F7-AEB1-DDE5280E1CEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6B1742C-151E-4D7A-97BD-30DCA40EA90A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Source\WolfSSL\wolfcrypt\src\aes.c = ..\..\Source\WolfSSL\wolfcrypt\src\aes.c
+		..\..\Source\WolfSSL\wolfcrypt\src\aes_asm.asm = ..\..\Source\WolfSSL\wolfcrypt\src\aes_asm.asm
+		..\..\Source\WolfSSL\wolfcrypt\src\aes_asm.s = ..\..\Source\WolfSSL\wolfcrypt\src\aes_asm.s
+		..\..\Source\WolfSSL\wolfcrypt\src\arc4.c = ..\..\Source\WolfSSL\wolfcrypt\src\arc4.c
+		..\..\Source\WolfSSL\wolfcrypt\src\asm.c = ..\..\Source\WolfSSL\wolfcrypt\src\asm.c
+		..\..\Source\WolfSSL\wolfcrypt\src\asn.c = ..\..\Source\WolfSSL\wolfcrypt\src\asn.c
+		..\..\Source\WolfSSL\wolfcrypt\src\blake2b.c = ..\..\Source\WolfSSL\wolfcrypt\src\blake2b.c
+		..\..\Source\WolfSSL\wolfcrypt\src\camellia.c = ..\..\Source\WolfSSL\wolfcrypt\src\camellia.c
+		..\..\Source\WolfSSL\wolfcrypt\src\chacha.c = ..\..\Source\WolfSSL\wolfcrypt\src\chacha.c
+		..\..\Source\WolfSSL\wolfcrypt\src\chacha20_poly1305.c = ..\..\Source\WolfSSL\wolfcrypt\src\chacha20_poly1305.c
+		..\..\Source\WolfSSL\wolfcrypt\src\coding.c = ..\..\Source\WolfSSL\wolfcrypt\src\coding.c
+		..\..\Source\WolfSSL\wolfcrypt\src\compress.c = ..\..\Source\WolfSSL\wolfcrypt\src\compress.c
+		..\..\Source\WolfSSL\wolfcrypt\src\curve25519.c = ..\..\Source\WolfSSL\wolfcrypt\src\curve25519.c
+		..\..\Source\WolfSSL\wolfcrypt\src\des3.c = ..\..\Source\WolfSSL\wolfcrypt\src\des3.c
+		..\..\Source\WolfSSL\wolfcrypt\src\dh.c = ..\..\Source\WolfSSL\wolfcrypt\src\dh.c
+		..\..\Source\WolfSSL\wolfcrypt\src\dsa.c = ..\..\Source\WolfSSL\wolfcrypt\src\dsa.c
+		..\..\..\..\..\..\..\Desktop\Flattened DSA includes\dsa.h = ..\..\..\..\..\..\..\Desktop\Flattened DSA includes\dsa.h
+		..\..\Source\WolfSSL\wolfcrypt\src\ecc.c = ..\..\Source\WolfSSL\wolfcrypt\src\ecc.c
+		..\..\Source\WolfSSL\wolfcrypt\src\ecc_fp.c = ..\..\Source\WolfSSL\wolfcrypt\src\ecc_fp.c
+		..\..\Source\WolfSSL\wolfcrypt\src\ed25519.c = ..\..\Source\WolfSSL\wolfcrypt\src\ed25519.c
+		..\..\Source\WolfSSL\wolfcrypt\src\error.c = ..\..\Source\WolfSSL\wolfcrypt\src\error.c
+		..\..\Source\WolfSSL\wolfcrypt\src\fe_low_mem.c = ..\..\Source\WolfSSL\wolfcrypt\src\fe_low_mem.c
+		..\..\Source\WolfSSL\wolfcrypt\src\fe_operations.c = ..\..\Source\WolfSSL\wolfcrypt\src\fe_operations.c
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mont_small.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mont_small.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_12.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_12.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_17.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_17.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_20.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_20.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_24.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_24.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_28.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_28.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_3.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_3.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_32.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_32.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_4.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_4.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_48.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_48.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_6.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_6.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_64.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_64.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_7.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_7.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_8.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_8.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_9.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_9.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_small_set.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_mul_comba_small_set.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_12.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_12.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_17.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_17.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_20.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_20.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_24.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_24.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_28.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_28.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_3.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_3.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_32.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_32.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_4.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_4.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_48.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_48.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_6.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_6.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_64.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_64.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_7.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_7.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_8.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_8.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_9.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_9.i
+		..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_small_set.i = ..\..\Source\WolfSSL\wolfcrypt\src\fp_sqr_comba_small_set.i
+		..\..\Source\WolfSSL\wolfcrypt\src\ge_low_mem.c = ..\..\Source\WolfSSL\wolfcrypt\src\ge_low_mem.c
+		..\..\Source\WolfSSL\wolfcrypt\src\ge_operations.c = ..\..\Source\WolfSSL\wolfcrypt\src\ge_operations.c
+		..\..\Source\WolfSSL\wolfcrypt\src\hash.c = ..\..\Source\WolfSSL\wolfcrypt\src\hash.c
+		..\..\Source\WolfSSL\wolfcrypt\src\hc128.c = ..\..\Source\WolfSSL\wolfcrypt\src\hc128.c
+		..\..\Source\WolfSSL\wolfcrypt\src\hmac.c = ..\..\Source\WolfSSL\wolfcrypt\src\hmac.c
+		..\..\Source\WolfSSL\wolfcrypt\src\include.am = ..\..\Source\WolfSSL\wolfcrypt\src\include.am
+		..\..\Source\WolfSSL\wolfcrypt\src\integer.c = ..\..\Source\WolfSSL\wolfcrypt\src\integer.c
+		..\..\Source\WolfSSL\wolfcrypt\src\logging.c = ..\..\Source\WolfSSL\wolfcrypt\src\logging.c
+		..\..\Source\WolfSSL\wolfcrypt\src\md2.c = ..\..\Source\WolfSSL\wolfcrypt\src\md2.c
+		..\..\Source\WolfSSL\wolfcrypt\src\md4.c = ..\..\Source\WolfSSL\wolfcrypt\src\md4.c
+		..\..\Source\WolfSSL\wolfcrypt\src\md5.c = ..\..\Source\WolfSSL\wolfcrypt\src\md5.c
+		..\..\Source\WolfSSL\wolfcrypt\src\memory.c = ..\..\Source\WolfSSL\wolfcrypt\src\memory.c
+		..\..\Source\WolfSSL\wolfcrypt\src\misc.c = ..\..\Source\WolfSSL\wolfcrypt\src\misc.c
+		..\..\Source\WolfSSL\wolfcrypt\src\pkcs7.c = ..\..\Source\WolfSSL\wolfcrypt\src\pkcs7.c
+		..\..\Source\WolfSSL\wolfcrypt\src\poly1305.c = ..\..\Source\WolfSSL\wolfcrypt\src\poly1305.c
+		..\..\Source\WolfSSL\wolfcrypt\src\pwdbased.c = ..\..\Source\WolfSSL\wolfcrypt\src\pwdbased.c
+		..\..\Source\WolfSSL\wolfcrypt\src\rabbit.c = ..\..\Source\WolfSSL\wolfcrypt\src\rabbit.c
+		..\..\Source\WolfSSL\wolfcrypt\src\random.c = ..\..\Source\WolfSSL\wolfcrypt\src\random.c
+		..\..\Source\WolfSSL\wolfcrypt\src\ripemd.c = ..\..\Source\WolfSSL\wolfcrypt\src\ripemd.c
+		..\..\Source\WolfSSL\wolfcrypt\src\rsa.c = ..\..\Source\WolfSSL\wolfcrypt\src\rsa.c
+		..\..\Source\WolfSSL\wolfcrypt\src\sha.c = ..\..\Source\WolfSSL\wolfcrypt\src\sha.c
+		..\..\Source\WolfSSL\wolfcrypt\src\sha256.c = ..\..\Source\WolfSSL\wolfcrypt\src\sha256.c
+		..\..\Source\WolfSSL\wolfcrypt\src\sha512.c = ..\..\Source\WolfSSL\wolfcrypt\src\sha512.c
+		..\..\Source\WolfSSL\wolfcrypt\src\tfm.c = ..\..\Source\WolfSSL\wolfcrypt\src\tfm.c
+		..\..\Source\WolfSSL\wolfcrypt\src\wc_port.c = ..\..\Source\WolfSSL\wolfcrypt\src\wc_port.c
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Debug|Win32.Build.0 = Debug|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Release|Win32.ActiveCfg = Release|Win32
+		{C686325E-3261-42F7-AEB1-DDE5280E1CEB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

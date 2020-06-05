@@ -1,0 +1,17 @@
+﻿Build started 6/5/2020 1:16:43 PM.
+     1>Project "C:\Users\pcp071098\Documents\soci_cdh_freertos_emulator\wolfSSL_project\FreeRTOS-Plus\Demo\FreeRTOS_Plus_WolfSSL_Windows_Simulator\WIN32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\RTOSDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         WIN32.vcxproj -> C:\Users\pcp071098\Documents\soci_cdh_freertos_emulator\wolfSSL_project\FreeRTOS-Plus\Demo\FreeRTOS_Plus_WolfSSL_Windows_Simulator\.\Debug\RTOSDemo.exe
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\RTOSDemo.unsuccessfulbuild".
+         Touching ".\Debug\RTOSDemo.lastbuildstate".
+     1>Done Building Project "C:\Users\pcp071098\Documents\soci_cdh_freertos_emulator\wolfSSL_project\FreeRTOS-Plus\Demo\FreeRTOS_Plus_WolfSSL_Windows_Simulator\WIN32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.70

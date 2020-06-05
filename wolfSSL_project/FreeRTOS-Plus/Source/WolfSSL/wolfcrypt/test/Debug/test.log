@@ -1,0 +1,13 @@
+﻿Build started 5/24/2020 3:12:45 PM.
+     1>Project "C:\Users\pcp071098\Documents\Visual Studio 2010\Projects\FreeRTOSv10.3.1\FreeRTOS-Plus\Source\WolfSSL\wolfcrypt\test\test.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\test.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /I../../include/openssl /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt test.c
+         test.c
+     1>c:\users\pcp071098\documents\visual studio 2010\projects\freertosv10.3.1\freertos-plus\source\wolfssl\wolfcrypt\test\test.c(35): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/asn_public.h': No such file or directory
+     1>Done Building Project "C:\Users\pcp071098\Documents\Visual Studio 2010\Projects\FreeRTOSv10.3.1\FreeRTOS-Plus\Source\WolfSSL\wolfcrypt\test\test.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.31

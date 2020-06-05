@@ -1,0 +1,133 @@
+﻿Build started 5/8/2020 2:42:13 PM.
+     1>Project "C:\Users\pcp071098\Documents\Visual Studio 2010\Projects\FreeRTOSv10.3.1\FreeRTOS-Plus\Demo\FreeRTOS_Plus_WolfSSL_Windows_Simulator\WIN32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\Release\RTOSDemo.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Source\include /I"..\..\Source\portable\MSVC-MingW" /I..\Common\Include /I. /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D _WINSOCKAPI_ /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Source\wolfSSL\wolfcrypt\src\aes.c ..\..\Source\wolfSSL\wolfcrypt\src\arc4.c ..\..\Source\wolfSSL\wolfcrypt\src\asn.c ..\..\Source\wolfSSL\wolfcrypt\src\blake2b.c ..\..\Source\wolfSSL\wolfcrypt\src\camellia.c ..\..\Source\wolfSSL\wolfcrypt\src\chacha.c ..\..\Source\wolfSSL\wolfcrypt\src\chacha20_poly1305.c ..\..\Source\wolfSSL\wolfcrypt\src\coding.c ..\..\Source\wolfSSL\wolfcrypt\src\compress.c ..\..\Source\wolfSSL\wolfcrypt\src\curve25519.c ..\..\Source\wolfSSL\wolfcrypt\src\des3.c ..\..\Source\wolfSSL\wolfcrypt\src\dh.c ..\..\Source\wolfSSL\wolfcrypt\src\dsa.c ..\..\Source\wolfSSL\wolfcrypt\src\ecc.c ..\..\Source\wolfSSL\wolfcrypt\src\ecc_fp.c ..\..\Source\wolfSSL\wolfcrypt\src\ed25519.c ..\..\Source\wolfSSL\wolfcrypt\src\error.c ..\..\Source\wolfSSL\wolfcrypt\src\fe_low_mem.c ..\..\Source\wolfSSL\wolfcrypt\src\fe_operations.c ..\..\Source\wolfSSL\wolfcrypt\src\ge_low_mem.c ..\..\Source\wolfSSL\wolfcrypt\src\ge_operations.c ..\..\Source\wolfSSL\wolfcrypt\src\hash.c ..\..\Source\wolfSSL\wolfcrypt\src\hc128.c ..\..\Source\wolfSSL\wolfcrypt\src\hmac.c ..\..\Source\wolfSSL\wolfcrypt\src\integer.c ..\..\Source\wolfSSL\wolfcrypt\src\logging.c ..\..\Source\wolfSSL\wolfcrypt\src\md2.c ..\..\Source\wolfSSL\wolfcrypt\src\md4.c ..\..\Source\wolfSSL\wolfcrypt\src\md5.c ..\..\Source\wolfSSL\wolfcrypt\src\memory.c ..\..\Source\wolfSSL\wolfcrypt\src\misc.c ..\..\Source\wolfSSL\wolfcrypt\src\pkcs7.c ..\..\Source\wolfSSL\wolfcrypt\src\poly1305.c ..\..\Source\wolfSSL\wolfcrypt\src\pwdbased.c ..\..\Source\wolfSSL\wolfcrypt\src\rabbit.c ..\..\Source\wolfSSL\wolfcrypt\src\random.c ..\..\Source\wolfSSL\wolfcrypt\src\ripemd.c ..\..\Source\wolfSSL\wolfcrypt\src\rsa.c ..\..\Source\wolfSSL\wolfcrypt\src\sha.c ..\..\Source\wolfSSL\wolfcrypt\src\sha256.c ..\..\Source\wolfSSL\wolfcrypt\src\sha512.c ..\..\Source\wolfSSL\wolfcrypt\src\tfm.c ..\..\Source\wolfSSL\wolfcrypt\src\wc_port.c ..\..\Source\wolfSSL\src\internal.c ..\..\Source\wolfSSL\src\io.c ..\..\Source\wolfSSL\src\keys.c ..\..\Source\wolfSSL\src\ssl.c ..\..\Source\wolfSSL\src\tls.c ..\..\..\FreeRTOS\Source\list.c ..\..\..\FreeRTOS\Source\portable\MemMang\heap_3.c "..\..\..\FreeRTOS\Source\portable\MSVC-MingW\port.c" ..\..\..\FreeRTOS\Source\queue.c ..\..\..\FreeRTOS\Source\tasks.c ..\..\..\FreeRTOS\Source\timers.c main.c SecureTCPClientTask.c SecureTCPServerTask.c
+         aes.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\aes.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         arc4.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\arc4.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         asn.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\asn.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         blake2b.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\blake2b.c(39): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         camellia.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\camellia.c(59): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         chacha.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\chacha.c(32): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         chacha20_poly1305.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\chacha20_poly1305.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         coding.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\coding.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         compress.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\compress.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         curve25519.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\curve25519.c(29): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         des3.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\des3.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         dh.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\dh.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         dsa.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\dsa.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         ecc.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\ecc.c(28): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         ecc_fp.c
+         ed25519.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\ed25519.c(29): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         error.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\error.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         fe_low_mem.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\fe_low_mem.c(28): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         fe_operations.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\fe_operations.c(28): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         ge_low_mem.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\ge_low_mem.c(28): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         Generating Code...
+         Compiling...
+         ge_operations.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\ge_operations.c(29): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         hash.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\hash.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         hc128.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\hc128.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         hmac.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\hmac.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         integer.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\integer.c(34): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         logging.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\logging.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         md2.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\md2.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         md4.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\md4.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         md5.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\md5.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         memory.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\memory.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         misc.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\misc.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         pkcs7.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\pkcs7.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         poly1305.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\poly1305.c(29): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         pwdbased.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\pwdbased.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         rabbit.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\rabbit.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         random.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\random.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         ripemd.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\ripemd.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         rsa.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\rsa.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         sha.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\sha.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         sha256.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\sha256.c(28): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         Generating Code...
+         Compiling...
+         sha512.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\sha512.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         tfm.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\tfm.c(38): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         wc_port.c
+     1>..\..\Source\wolfSSL\wolfcrypt\src\wc_port.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         internal.c
+     1>..\..\Source\wolfSSL\src\internal.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         io.c
+     1>..\..\Source\wolfSSL\src\io.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         keys.c
+     1>..\..\Source\wolfSSL\src\keys.c(28): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         ssl.c
+     1>..\..\Source\wolfSSL\src\ssl.c(26): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         tls.c
+     1>..\..\Source\wolfSSL\src\tls.c(27): fatal error C1083: Cannot open include file: 'wolfssl/wolfcrypt/settings.h': No such file or directory
+         list.c
+     1>..\..\..\FreeRTOS\Source\list.c(30): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         heap_3.c
+     1>..\..\..\FreeRTOS\Source\portable\MemMang\heap_3.c(47): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         port.c
+     1>..\..\..\FreeRTOS\Source\portable\MSVC-MingW\port.c(32): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         queue.c
+     1>..\..\..\FreeRTOS\Source\queue.c(36): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         tasks.c
+     1>..\..\..\FreeRTOS\Source\tasks.c(38): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         timers.c
+     1>..\..\..\FreeRTOS\Source\timers.c(36): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         main.c
+     1>main.c(33): fatal error C1083: Cannot open include file: 'FreeRTOS.h': No such file or directory
+         SecureTCPClientTask.c
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\WinSock2.h(29): warning C4005: '_WINSOCKAPI_' : macro redefinition
+                 command-line arguments :  see previous definition of '_WINSOCKAPI_'
+     1>SecureTCPClientTask.c(34): fatal error C1083: Cannot open include file: 'wolfssl/ssl.h': No such file or directory
+         SecureTCPServerTask.c
+     1>C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\WinSock2.h(29): warning C4005: '_WINSOCKAPI_' : macro redefinition
+                 command-line arguments :  see previous definition of '_WINSOCKAPI_'
+     1>SecureTCPServerTask.c(34): fatal error C1083: Cannot open include file: 'wolfssl/ssl.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\pcp071098\Documents\Visual Studio 2010\Projects\FreeRTOSv10.3.1\FreeRTOS-Plus\Demo\FreeRTOS_Plus_WolfSSL_Windows_Simulator\WIN32.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.12
