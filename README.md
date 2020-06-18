@@ -15,7 +15,7 @@ Possible future areas of work:
 <ul>
   <li>Convert the Microsoft Visual Studio 2010 projects into CMake projects</li>
   <li>Fix the dev_wip branch: Error -148 returned from CyaSSL_CTX_load_verify_locations() issue</li>
-  <li>Successfully send encrypted messages using DSA between the i.MXRT1050 and a laptop computer.  </li>
+  <li>Successfully send encrypted messages using DSA between the i.MXRT1050 and a laptop computer </li>
   <li>Create a custom protocol in Cosmos (https://cosmosrb.com/) that sends data using SSL</li>
   <li>Create a design document specifing the memory layout of the OBC (we want to store SSL certificate in persistent memory)</li>
   <li>Create a procedure for managing the SSL certificate for the ground station</li>
