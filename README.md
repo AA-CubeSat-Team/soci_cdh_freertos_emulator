@@ -12,11 +12,11 @@ not yet gotten a response.
 These are Microsoft Visual Studio 2010 projects. 
 
 Possible future areas of work:
-<li>
-  <ul>Convert the Microsoft Visual Studio 2010 projects into CMake projects</ul>
-  <ul>Fix the dev_wip branch: Error -148 returned from CyaSSL_CTX_load_verify_locations() issue</ul>
-  <ul>Succesfully send encrypted messages using DSA between the i.MXRT1050 and a laptop computer.  </ul>
-  <ul>Create a custom protocol in Cosmos (https://cosmosrb.com/) that sends data using SSL</ul>
-  <ul>Create a design document specifing the memory layout of the OBC (we want to store SSL certificate in persistent memory)</ul>
-  <ul>Store the client SSL certificate in a secure location in the ground station? </ul>
-</li>
+<ul>
+  <li>Convert the Microsoft Visual Studio 2010 projects into CMake projects</li>
+  <li>Fix the dev_wip branch: Error -148 returned from CyaSSL_CTX_load_verify_locations() issue</li>
+  <li>Succesflily send encrypted messages using DSA between the i.MXRT1050 and a laptop computer.  </li>
+  <li>Create a custom protocol in Cosmos (https://cosmosrb.com/) that sends data using SSL</li>
+  <li>Create a design document specifing the memory layout of the OBC (we want to store SSL certificate in persistent memory)</li>
+  <li>Store the client SSL certificate in a secure location in the ground station? </li>
+</ul>
