@@ -18,5 +18,5 @@ Possible future areas of work:
   <li>Succesflily send encrypted messages using DSA between the i.MXRT1050 and a laptop computer.  </li>
   <li>Create a custom protocol in Cosmos (https://cosmosrb.com/) that sends data using SSL</li>
   <li>Create a design document specifing the memory layout of the OBC (we want to store SSL certificate in persistent memory)</li>
-  <li>Create a procedure for managing the SSL certificate of the ground station</li>
+  <li>Create a procedure for managing the SSL certificate for the ground station</li>
 </ul>
