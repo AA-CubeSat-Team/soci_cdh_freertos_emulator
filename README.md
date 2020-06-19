@@ -21,7 +21,7 @@ Possible future areas of work:
   <li>Create a procedure for managing the SSL certificate for the ground station</li>
 </ul>
 
-I've found the following links helpful regarding SSL certificates and certificate authorities:
+I've found the following links regarding SSL certificates and certificate authorities helpful:
 <br/>
 [OpenSSL create client certificate & server certificate with example](https://www.golinuxcloud.com/openssl-create-client-server-certificate/)
 <br/>
