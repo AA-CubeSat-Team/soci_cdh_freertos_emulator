@@ -22,5 +22,7 @@ Possible future areas of work:
 </ul>
 
 I've found the following links helpful regarding SSL certificates and certificate authorities:
+<br/>
 [OpenSSL create client certificate & server certificate with example](https://www.golinuxcloud.com/openssl-create-client-server-certificate/)
+<br/>
 [OpenSSL create certificate chain with Root & Intermediate CA](https://www.golinuxcloud.com/openssl-create-certificate-chain-linux/)
