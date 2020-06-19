@@ -20,3 +20,7 @@ Possible future areas of work:
   <li>Create a design document specifing the memory layout of the OBC (we want to store SSL certificate in persistent memory)</li>
   <li>Create a procedure for managing the SSL certificate for the ground station</li>
 </ul>
+
+I've found the following links helpful regarding SSL certificates and certificate authorities:
+[OpenSSL create client certificate & server certificate with example](https://www.golinuxcloud.com/openssl-create-client-server-certificate/)
+[OpenSSL create certificate chain with Root & Intermediate CA](https://www.golinuxcloud.com/openssl-create-certificate-chain-linux/)
